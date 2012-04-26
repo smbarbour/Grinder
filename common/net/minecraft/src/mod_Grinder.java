@@ -48,7 +48,7 @@ public class mod_Grinder extends NetworkMod {
 				
 		ModLoader.registerBlock(blockGrinder);
 		proxy.registerTileEntities();
-		//ModLoader.addName(blockGrinder, "Grinder");
+		ModLoader.addName(blockGrinder, "Grinder");
 				
 /*
   		try {
