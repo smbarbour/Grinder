@@ -1,5 +1,9 @@
 package grinder;
 
+import buildcraft.api.IPipeConnection;
+import buildcraft.api.Orientations;
+import buildcraft.api.Position;
+import buildcraft.core.Utils;
 import net.minecraft.src.Block;
 import net.minecraft.src.BlockContainer;
 import net.minecraft.src.Container;
@@ -13,10 +17,6 @@ import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityFurnace;
 import net.minecraft.src.World;
 import net.minecraft.src.mod_Grinder;
-import net.minecraft.src.buildcraft.api.IPipeConnection;
-import net.minecraft.src.buildcraft.api.Orientations;
-import net.minecraft.src.buildcraft.api.Position;
-import net.minecraft.src.buildcraft.core.Utils;
 import net.minecraft.src.forge.ITextureProvider;
 
 public class BlockGrinder extends BlockContainer implements ITextureProvider, IPipeConnection {

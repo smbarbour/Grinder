@@ -1,5 +1,7 @@
-package net.minecraft.src;
+package grinder;
 
+import net.minecraft.src.NetworkManager;
+import net.minecraft.src.Packet1Login;
 import net.minecraft.src.forge.IConnectionHandler;
 
 public class PacketHandler implements IConnectionHandler {

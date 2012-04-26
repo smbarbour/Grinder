@@ -2,6 +2,12 @@ package grinder;
 
 import java.util.Random;
 
+import buildcraft.api.IPowerReceptor;
+import buildcraft.api.Orientations;
+import buildcraft.api.PowerFramework;
+import buildcraft.api.PowerProvider;
+import buildcraft.core.Utils;
+
 import net.minecraft.src.Block;
 import net.minecraft.src.Container;
 import net.minecraft.src.EntityPlayer;
@@ -13,11 +19,6 @@ import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.NBTTagList;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.World;
-import net.minecraft.src.buildcraft.api.IPowerReceptor;
-import net.minecraft.src.buildcraft.api.Orientations;
-import net.minecraft.src.buildcraft.api.PowerFramework;
-import net.minecraft.src.buildcraft.api.PowerProvider;
-import net.minecraft.src.buildcraft.core.Utils;
 import net.minecraft.src.forge.ISidedInventory;
 import net.minecraft.src.forge.MinecraftForge;
 

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import grinder.BlockGrinder;
 import grinder.DefaultProps;
 import grinder.IProxy;
+import grinder.PacketHandler;
 import grinder.ServerClientProxy;
 import grinder.TileGrinder;
 
